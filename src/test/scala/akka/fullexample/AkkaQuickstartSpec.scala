@@ -1,9 +1,9 @@
 //#full-example
-package akka
+package akka.fullexample
 
 import akka.actor.testkit.typed.scaladsl.ScalaTestWithActorTestKit
-import akka.Greeter.Greet
-import akka.Greeter.Greeted
+import akka.fullexample.Greeter.Greet
+import akka.fullexample.Greeter.Greeted
 import org.scalatest.wordspec.AnyWordSpecLike
 
 //#definition

@@ -1,8 +1,9 @@
-package akka
+package akka.actor.example
 
-import akka.actor.Actor;          // Importing actor trait  
-import akka.actor.ActorSystem;      
+import akka.actor.Actor
+import akka.actor.ActorSystem
 import akka.actor.Props;  
+import akka.actor.actorRef2Scala
 class HelloAkka extends Actor{    // Extending actor trait  
   def receive = {                 //  Receiving message  
     case msg:String => println(msg)  
